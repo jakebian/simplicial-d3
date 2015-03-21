@@ -1,0 +1,19 @@
+{
+  "name": "simplicial-d3",
+  "version": "0.0.1",
+  "authors": [
+    "Jake Bian <findjakebian@gmail.com>"
+  ],
+  "description": "Using d3 to visualize simplicial complexes",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.5"
+  }
+}

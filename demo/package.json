@@ -1,0 +1,8 @@
+{
+  "name": "simplicial-d3-demo",
+  "description": "Using D3 to visualize simplicial complexes",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}
