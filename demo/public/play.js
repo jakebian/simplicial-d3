@@ -1,3 +1,13 @@
+var complex = new Complex();
+
+complex.addSimplex(['p0', 'p1', 'p2', 'p3']);
+
+complex.addSimplex(['p0', 'p4']);
+
+complex.addSimplex(['p0', 'p1', 'p4']);
+
+complex.render();
+
 var p0 = {
     name: 'p0'
 }
