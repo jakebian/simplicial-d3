@@ -1,4 +1,17 @@
-function render(graph, config, containerSelector) {
+var DEFAULT_CONFIG = {
+    force: {
+        charge: -20,
+        linkDistance: 80
+    },
+    size: {
+        width: 960,
+        height:500
+    }
+}
+
+function renderGraph(graph, config, containerSelector) {
+
+    config = config || DEFAULT_CONFIG;
 
     var forceConfig = {
         charge: config.force.charge,
